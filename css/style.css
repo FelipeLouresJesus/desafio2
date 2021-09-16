@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+
+.form {
+  width: 70%;
+  padding: 100px;
+  margin: 0 auto;
+}
+
+.form img {
+  display: block;
+  width: 126px;
+  margin: 30px auto;
+}
+
+.form h1 {
+  text-align: center;
+  margin-top: -15px;
+  font-size: 56px;
+  text-transform: uppercase;
+}
+
+.form h2 {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 30px;
+}
+
+.form h3 {
+  text-align: center;
+  margin-top: 45px;
+  font-size: 27px;
+  margin-bottom: 20px;
+}
+
+form input[type="text"],
+form input[type="email"] {
+  display: block;
+  width: 70%;
+  margin: 8px auto;
+  padding: 14px;
+  border-radius: 11px;
+  border: none;
+}
+
+form input[type="checkbox"] {
+  margin-left: 145px;
+  margin-top: 25px;
+}
+
+form label {
+  display: block;
+  text-align: center;
+  margin-top: -20px;
+  margin-left: 20px;
+}
+
+form label span:first-child {
+  display: block;
+  margin: 5px auto;
+}
+
+form .button {
+  display: block;
+  width: 70%;
+  font-size: 25px;
+  padding: 10px;
+  color: white;
+  background-color: rgba(20, 91, 223, 0.829);
+  margin: 20px auto;
+  border: none;
+  border-radius: 11px;
+}
+
+form .button:hover {
+  background-color: rgba(17, 79, 192, 0.972);
+}
